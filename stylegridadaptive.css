@@ -1,0 +1,115 @@
+body {
+    font-size: 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .footer {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: rgb(218, 216, 216);
+        height: 5.5vw;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height: 11vw;
+    }
+}   
+
+@media screen and (max-width:599px) {
+    .footer {
+    display: none;
+    }
+    .main {
+        height: 100vw;
+        display: grid;
+        align-items: stretch;
+    }
+} 
+
+.header {
+    width: 100%;
+    background-color: rgb(218, 216, 216);
+    height: 3vw;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* .main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 11vw;
+} */
+
+.left {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    gap: 1vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.items_1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 3.5vw;
+    width: 10vw;
+    background-color: rgb(248, 204, 168);
+    width: 100%;
+
+}
+.items_2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 3.5vw;
+    width: 10vw;
+    background-color:  rgb(248, 204, 168);
+    width: 100%;
+}
+.items_3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 3.5vw;
+    width: 10vw;
+    grid-column: 1/3;
+    background-color: rgb(248, 204, 168);
+    width: 100%;
+}
+
+.right {
+    background-color: rgb(205, 241, 205);
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(218, 216, 216);
+    height: 5.5vw;
+}
+
+.section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 3.5vw;
+    width: 10vw;
+    margin: 1vw;
+}
