@@ -1,0 +1,121 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    height: 150%;
+    width: 100%;
+}
+
+.lager {
+    /* position: relative;
+    z-index: 1; */
+    display: flex;
+    width: 50%;
+    background-color: #00093C;
+    color: white;
+    }
+
+.item {
+    display: grid;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.item_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px, Bold;
+    font-size: 42px;
+    line-height: 51px; 
+}
+
+.View {
+    /* position: relative;
+    z-index: 2; */
+    width: 50%;
+    height: 31vw;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+}
+
+.girl {
+    /* position: relative;
+    z-index: 3; */
+    position: absolute;
+    left: 40%;
+    top: 14%;
+}
+
+.boy {
+    position: absolute;
+    left: 60%;
+}
+
+button {
+    width: 13vw;
+    height: 3vw;
+    background: #F7941D;
+    border-radius: 6px;
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-top: 2%;
+}
+
+.Summer {
+    display: flex;
+    Width: 350px;
+    Height: 130px;
+    background-blend-mode: color-burn;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.Owl img{
+    max-width: 100%;
+}
+
+.Summer_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.Sertificat {
+display: grid;
+grid-template-columns: 2fr 1fr;
+}
+
+.Sertificat_1 {
+    display: flex;
+    justify-content: center;
+}
+.Sertificat_1 img{
+    max-width: 100%;
+}
+
+.Sertificat_3 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Spisok_1, .Spisok_2  {
+list-style-image: url("images/marker.png"); 
+line-height: 3.5em;
+}
+
